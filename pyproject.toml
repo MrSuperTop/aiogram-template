@@ -4,11 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-packages = [{include = "aiogram_test"}]
+packages = [{ include = "aiogram_test" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-aiogram = "^2.25.1"
+aiogram = "^3.0.0b7"
 pydantic = "^1.10.9"
 
 
